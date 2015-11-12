@@ -1,4 +1,9 @@
-<html>
-<head></head>
-<body>File not found !!</body>
-</html>
+{% extends "base.html" %}
+{% block title %} Page not found {% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+  <h1>Page Not Found. 404!!</h1>
+</div>
+{% endblock %}
+
