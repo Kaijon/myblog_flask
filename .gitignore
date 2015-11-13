@@ -1,0 +1,2 @@
+# ignore some temp files and folders.
+*.pyc
